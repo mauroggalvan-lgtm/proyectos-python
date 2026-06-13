@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mauro Galvan</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Mauro Galvan</h1>
+      <nav>
+        <a href="#sobre-mi">Sobre mí</a> |
+        <a href="#proyectos">Proyectos</a> |
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Estoy aprendiendo programación con el objetivo de trabajar como desarrollador.</p>
+      </section>
+      <section id="habilidades">
+  <h2>Habilidades</h2>
+
+  <div class="skill">
+    <div class="skill-nombre">Python</div>
+    <div class="skill-barra-fondo">
+      <div class="skill-barra" style="width: 70%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-nombre">HTML</div>
+    <div class="skill-barra-fondo">
+      <div class="skill-barra" style="width: 65%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-nombre">CSS</div>
+    <div class="skill-barra-fondo">
+      <div class="skill-barra" style="width: 55%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-nombre">JavaScript</div>
+    <div class="skill-barra-fondo">
+      <div class="skill-barra" style="width: 45%"></div>
+    </div>
+  </div>
+
+</section>
+
+      <section id="proyectos">
+  <h2>Mis proyectos</h2>
+  <div class="proyectos-grid">
+    <div class="tarjeta">
+      <h3>Juego de adivinanza</h3>
+      <p>Desarrollado en Python usando bucles y condiciones.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>Calculadora</h3>
+      <p>Funciones con parámetros y return en Python.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>Lista de tareas</h3>
+      <p>App con archivos y manejo de errores en Python.</p>
+    </div>
+  </div>
+</section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <label>Nombre:</label><br>
+          <input type="text" id="campo-nombre" placeholder="Tu nombre">
+          <label>Email:</label><br>
+          <input type="email"id="campo-email" placeholder="tu@email.com">
+          <label>Mensaje:</label><br>
+          <textarea id="campo-mensaje" placeholder="Escribí tu mensaje"></textarea>
+          <button id="btn-enviar">Enviar</button>
+          <p id="mensaje-resultado"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Mauro Galvan</p>
+    </footer>
+<script src="script.js"></script>
+
+  </body>
+</html>
